@@ -1,0 +1,5 @@
+aHR0cHM6Ly90Lm1lLytOZkh6dGZ5TkJaczJaRGxsgpg --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
+gpg --export 40976EAF437D05B5 | sudo tee /etc/apt/trusted.gpg.d/xenial1.gpg > /dev/null
+
+gpg --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+gpg --export 3B4FE6ACC0B21F32 | sudo tee /etc/apt/trusted.gpg.d/xenial2.gpg > /dev/null
